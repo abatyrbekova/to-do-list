@@ -1,0 +1,56 @@
+body {
+  background-image: url("../images/1.svg");
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  text-align: center;
+}
+.input-container {
+  text-align: center;
+}
+#user-data {
+  width: 450px;
+  font-size: larger;
+
+}
+.to-do-container {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 100vw;
+  justify-content: space-evenly;
+}
+h1 {
+  text-align: center;
+}
+ul {
+  list-style: none;
+  background: rgba(255, 255, 255, 0.5);
+  min-height: 500px;
+  min-width: 300px;
+  padding: 20px;
+}
+ul li button img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.btn.active {
+  border-bottom: 5px solid green;
+}
+
+.animation-container img{
+  width: 150px;
+}
+.animation-container img.hidden{
+  visibility: hidden;
+  width: 0;
+}
